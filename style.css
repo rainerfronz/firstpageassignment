@@ -67,7 +67,6 @@ p, li {
 }
 /* format for containers */
 div {
-  text-align:center;
   width:350px;
   margin: auto;
   padding: 20px;
