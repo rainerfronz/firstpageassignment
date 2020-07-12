@@ -1,0 +1,52 @@
+li {
+  background-color: lightgray;
+  padding: 1px 3px;
+  
+}
+.list-inside li {
+  list-style-position: inside;
+  width:350px;
+  height:auto;
+  
+}
+hr{
+  background-color: white;
+  height: 5px;
+  width:auto;
+  border:solid 2px black;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+img{
+  height: 300px;
+  width: 275px;
+
+}
+.background-light {
+  background-color:rgb(81, 108, 145);
+  padding: 30px;
+  margin:auto; 
+}
+.background-dark {
+  background-color: darkgray;
+  border: 0px;
+  padding: 5px;
+}
+.text-center {
+  text-align: center;
+}
+
+a:link    { color: grey;  }
+a:visited { color: yellow;   }
+a:hover   { color: black; }
+a:active  { color: aqua;  }
+p {
+  text-align: justify;
+}
+.box {
+  margin: 20px 10%;
+  background-color: #eee;
+  padding: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
