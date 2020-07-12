@@ -67,8 +67,8 @@ p, li {
 }
 /* format for containers */
 div {
-  width: 500px;
-  margin: auto;
+  width: 700px;
+  margin: 5px;
   padding: 20px;
 }
 
