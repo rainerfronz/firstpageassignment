@@ -1,3 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+section {
+  padding-bottom: 100px;
+}
+/*flex layout*/
+.group {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  flex: 1;
+  margin: 10px;
+}
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
 /* format list */
 li {
 
@@ -78,4 +98,13 @@ div {
 
 
 
+/*responsive media */
+@media all and ( min-wkdth: 600px){
+  section {
+    padding: 0 10%;
+  }
 
+  .group{
+  flex-direction: row;
+  }
+}
